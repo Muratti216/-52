@@ -98,7 +98,6 @@ Oyun sonunda kalan kartların değerleri:
 | Kart | Puan |
 |------|------|
 | 2-10 | Kendi değeri |
-| J (Vale) | 11 puan |
 | Q (Kız) | 10 puan |
 | K (Papaz) | 10 puan |
 | A (As) | 10 puan |
