@@ -8,9 +8,9 @@
 
 1. [Genel Bakış](#genel-bakış)
 2. [Kurulum](#kurulum)
-3. [Oyun Kuralları](#oyun-kuralları)
-4. [Özellikler](#özellikler)
-5. [Nasıl Oynanır](#nasıl-oynanır)
+3. [Oyun Kuralları](#oyun-kurallari)
+4. [Ozellikler](#ozellikler)
+5. [Nasil Oynanir](#nasil-oynanir)
 6. [AI Zorluk Seviyeleri](#ai-zorluk-seviyeleri)
 7. [Oyun Stratejileri](#oyun-stratejileri)
 
@@ -18,7 +18,7 @@
 
 ## 🎮 Genel Bakış
 
-Blöf Kart Oyunu, iki oyunculu bir strateji ve blöf oyunudur. 52 kartlık standart bir deste ile oynanır ve amaç, elinizdeki kartları en aza indirerek en düşük puanı almaktır.
+#52 Kart Oyunu, iki oyunculu bir strateji ve blöf oyunudur. 52 kartlık standart bir deste ile oynanır ve amaç, elinizdeki kartları en aza indirerek en düşük puanı almaktır.
 
 ### Ana Özellikler
 - 🤖 Gelişmiş AI rakip (3 zorluk seviyesi)
