@@ -376,3 +376,70 @@ Oyunu beğendiyseniz arkadaşlarınızla paylaşın! 🎴
 
 *Son güncelleme: 2025*
 *Sürüm: 1.0*
+
+-----------------------------------------
+# 🎴 #52
+
+**AI:** 💭 “I’ll try my luck with the K”
+**Player 1:** Choice: `1` (Play the card)
+**Result:** The AI took the K and matched it
+
+### End of Game:
+```
+Player 1: 3♦, 2♣ (5 points)
+AI: J♣, 4♦ (15 points)
+
+🎉 PLAYER 1 WON! 🎉
+```
+
+---
+
+## 🐛 Troubleshooting
+
+### If Colours Are Not Displayed:
+- On Windows: Install the `colorama` library
+- On Linux/Mac: Your terminal must support ANSI colours
+
+### If the Game Freezes:
+- Exit using Ctrl+C
+- Check your Python version (3.6+)
+
+---
+
+## 📝 Notes
+
+- The game runs entirely in the console
+- AI cards are never displayed
+- Statistics are shown at the end of each game
+- You can select to play again from the menu
+
+---
+
+## 👨‍💻 Developer Notes
+
+### Code Structure:
+```python
+class ColouredOutput:  # ANSI colour codes
+class AI:           # Advanced AI system
+class CardGame:    # Main game logic
+```
+
+### Important Methods:
+- `shuffle_deck()`: Shuffles the 52-card deck
+- `find_pairs()`: Finds matching cards
+- `select_card()`: AI card selection
+- `decide()`: AI bluff decision
+
+---
+
+## 🎉 Enjoy the game!
+
+**Good luck and all the best!** 🍀
+
+If you enjoyed the game, share it with your friends! 🎴
+
+---
+
+*Last updated: 2025*
+*Version: 1.0*
+
