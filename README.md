@@ -378,68 +378,88 @@ Oyunu beğendiyseniz arkadaşlarınızla paylaşın! 🎴
 *Sürüm: 1.0*
 
 -----------------------------------------
-# 🎴 #52
 
-**AI:** 💭 “I’ll try my luck with the K”
-**Player 1:** Choice: `1` (Play the card)
-**Result:** The AI took the K and matched it
+ # 🎴 #52
 
-### End of Game:
-```
-Player 1: 3♦, 2♣ (5 points)
-AI: J♣, 4♦ (15 points)
-
-🎉 PLAYER 1 WON! 🎉
-```
+**A Game of Strategy, Memory and Bluffing!**
 
 ---
 
-## 🐛 Troubleshooting
+## 📋 Contents
 
-### If Colours Are Not Displayed:
-- On Windows: Install the `colorama` library
-- On Linux/Mac: Your terminal must support ANSI colours
-
-### If the Game Freezes:
-- Exit using Ctrl+C
-- Check your Python version (3.6+)
-
----
-
-## 📝 Notes
-
-- The game runs entirely in the console
-- AI cards are never displayed
-- Statistics are shown at the end of each game
-- You can select to play again from the menu
+1. [Overview](#overview)
+2. [Set-up](#set-up)
+3. [Game Rules](#game-rules)
+4. [Features](#features)
+5. [How to Play](#how-to-play)
+6. [AI Difficulty Levels](#ai-difficulty-levels)
+7. [Game Strategies](#game-strategies)
 
 ---
 
-## 👨‍💻 Developer Notes
+## 🎮 Overview
 
-### Code Structure:
-```python
-class ColouredOutput:  # ANSI colour codes
-class AI:           # Advanced AI system
-class CardGame:    # Main game logic
-```
+#52 Card Game is a two-player strategy and bluffing game. It is played with a standard 52-card deck, and the aim is to minimise the number of cards in your hand to achieve the lowest score.
 
-### Important Methods:
-- `shuffle_deck()`: Shuffles the 52-card deck
-- `find_pairs()`: Finds matching cards
-- `select_card()`: AI card selection
-- `decide()`: AI bluff decision
+### Key Features
+- 🤖 Advanced AI opponent (3 difficulty levels)
+- 👥 Two-player mode
+- 🎨 Colourful console interface
+- 📊 Detailed game statistics
+- 🎭 Bluffing mechanism
+- 🧠 AI memory system
 
 ---
 
-## 🎉 Enjoy the game!
+## 💻 Installation
 
-**Good luck and all the best!** 🍀
+### Requirements
+- Python 3.6 or later
+- Standard Python libraries (random, time, collections)
 
-If you enjoyed the game, share it with your friends! 🎴
+### Installation Steps
+
+1. **Save the Python code:**
+   - Save the code as `blof_oyunu.py`
+
+2. **Run the game:**
+   ```bash
+   python blof_oyunu.py
+   ```
+
+3. **The game has started!** 🎉
 
 ---
 
-*Last updated: 2025*
+## 📖 Game Rules
+
+### 🎴 Preparation
+
+1. **Deck:** A standard 52-card deck is shuffled
+2. **Table:** 12 cards are laid face-up on the table
+3. **Deal:** Each player is dealt 8 cards
+
+### 🎯 Drawing from the Table
+
+Players take turns drawing cards from the table:
+- First round: **1 card each**
+- Second round: **2 cards each**
+- Third round: **3 cards each**
+
+In total, each player starts the game with 8 + 1 + 2 + 3 = **14 cards**.
+
+### 🃏 Matching Phase
+
+- Players match **cards of the same numerical value** from their hands
+- Matched cards (in pairs) are removed from the game
+- Example: If there are 2 sevens (7♠ and 7♥), both are discarded
+- If a player matches all their cards, **the game ends immediately**
+
+### 🎭 Bluffing Round
+
+The bluffing round lasts for **5 rounds**. In each round:
+
+#### Player Turn:
+1. The player selects one of the **remaining single cards** in their hand
+2. They ask their opponent for the matching card
 *Version: 1.0*
-
